@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ole&display=swap');
+/* front page */
+/* navigation bar */
+body{
+    background-image: url(https://media.istockphoto.com/photos/gray-abstract-minimal-motion-backgrounds-loopable-elements-4k-picture-id1174989482?b=1&k=20&m=1174989482&s=170667a&w=0&h=ld7ukW9KTzUlJLc6c37C2xs5ESYP2wLyjxsEVCumn2s=);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.navbar{
+    background-color: rgb(59, 58, 58);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: none;
+    border-radius: 0.7em;
+}
+.left_side{
+    display: grid;
+    grid-template-columns: repeat(4,10em);
+    padding: 1em;
+    position: relative;
+    top: 1.5em;
+    left: 1em;
+}
+.right_side{
+    display: flex;
+    margin-left: auto;
+    padding: 1em;
+}
+#logo{
+    height: 5em;
+    width: 9em;
+    position: relative;
+    bottom: 0.5em;
+    left: 4.5em;
+}
+
+#developer{
+    margin-right: 1em;
+    position: relative;
+    bottom: 0.3em;
+}
+.nav_text{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times;
+}
+.nav_text:hover{
+    color: rgb(199, 195, 195);
+    text-decoration: underline double ;
+}
+.helper{
+    padding-left: 0.5em;
+    font-family: 'Lobster',cursive;
+    text-decoration: none;
+    color: rgb(0, 255, 221);
+    font-size: 2.1em;
+}
+.helper:hover{
+    color: rgb(30, 40, 180);
+}
+/* Body  */
+/* MATH */
+.math_box{
+    border: none;
+    border-radius: 1em;
+    width: 100em;
+    height: 30em;
+    margin: auto;
+    margin-top: 7em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    position: relative;
+    background-image: url(./math.jpeg);
+    color: rgb(255, 255, 255);
+}
+.math_box:hover{
+    box-shadow: rgb(109, 108, 108) 10px 10px 5px;
+}
+#left{
+    border: chartreuse solid 2px;
+    border-radius: 1em;
+    position: relative;
+    top: 3.6em;
+    border: rgb(89, 255, 11) solid 2px;
+    height: 1em;
+    width: 11em;
+    margin-left: 5em;
+    font-size: 3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+#right{
+    font-size: 2em;
+    /* border: solid chocolate 2px ; */
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 2em;
+    left: 7em;
+}
+.theory, .tutorial{
+    text-decoration: none;
+    color: whitesmoke;
+    text-decoration: underline transparent;
+    transition: text-decoration 0.7s;
+}
+.theory:hover, .tutorial:hover{
+    text-decoration:underline rgb(157, 255, 112);
+}
+#theory, #tutorial{
+    margin: 1em;
+    padding: 1em;
+    border: solid 2px greenyellow;
+    border-radius: 0.4em;
+    transition: background-color 0.3s ;
+}
+#theory:hover, #tutorial:hover{
+    background-color: rgb(110, 107, 107);
+}
+/* MATH END */
+
+
